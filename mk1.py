@@ -13,3 +13,4 @@ else :
     
 print searchObj.start()
 print searchObj.end()
+print searchObj.span()

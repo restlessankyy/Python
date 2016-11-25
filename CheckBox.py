@@ -2,9 +2,15 @@ from Tkinter import *
 from tkMessageBox import *
 
 def changeLabel():
-    pass
+    name="Thanks for the click" + yourName.get()
+    labelText.set(name)
+    msg="My Name is "+ yourName.get()
+    yourName.delete(0,END)
+    yourName.insert(0,msg)
 def hasClicked():
-   pass
+        
+   radioValue = relStatus.get()
+   showinfo("You Clicked ",radioValue)
 window1 = Tk()
 window1.title("GUI Example")
 window1.geometry("450x300+200+200")

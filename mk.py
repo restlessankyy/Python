@@ -10,4 +10,6 @@ if searchObj:
     print "search --> searchObj.group():",searchObj.group()
 else :
     print "Nothing Found !!!"
-        
+    
+print searchObj.start()
+print searchObj.end()

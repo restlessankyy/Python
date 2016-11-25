@@ -32,6 +32,7 @@ custName = StringVar()
 yourName = Entry(window1,textvariable=custName)
 yourName.pack()
 
+
 #CreateRadio Option
 relStatus= StringVar()
 relStatus.set(None)

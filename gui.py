@@ -1,6 +1,9 @@
 from Tkinter import *
 def submit():
-   print"You First Name is %s"%(entry1.get())
+   #print"You First Name is %s"%(entry3.set())
+
+    str1 =  "You First Name is %s"%(entry1.get())
+    entry3.set(str1)
 def quit1():
     window1.destroy()
 window1 = Tk()
@@ -18,5 +21,12 @@ entry2.grid(row=1,column=1)
 button1=Button(window1,text="Submit",command=submit).grid(row=5,column=0)
 
 button2=Button(window1,text="EXIT",command=quit1).grid(row=5,column=1)
+
+label3=Label(window1,text="Result").grid(row=8,column=0)
+
+#entry3Text=StringVar()
+#entry3Text.set("Result")
+#entry3=Entry(window1,textvariable=entry3Text)
+#entry3.grid(row=8,column=1)
 
 window1.mainloop()

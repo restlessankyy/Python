@@ -1,0 +1,4 @@
+For numpy, please use the command to install numpy in the script folder.
+
+# pip install numpy
+
